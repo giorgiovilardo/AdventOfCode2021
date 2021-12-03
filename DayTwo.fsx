@@ -51,13 +51,9 @@ let resultPart2 input =
                    Horizontal = state.Horizontal + amount
                    Aim = state.Aim |}
             | Submarine.Up amount ->
-                {| Depth = state.Depth
-                   Horizontal = state.Horizontal
-                   Aim = state.Aim - amount |}
+                {| state with Aim = state.Aim - amount |}
             | Submarine.Down amount ->
-                {| Depth = state.Depth
-                   Horizontal = state.Horizontal
-                   Aim = state.Aim + amount |})
+                {| state with Aim = state.Aim + amount |})
         {| Depth = 0; Horizontal = 0; Aim = 0 |}
     |> fun data -> data.Depth * data.Horizontal
 
