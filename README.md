@@ -13,3 +13,4 @@ Was kinda easy too
 ## Day three
 
 First part relatively easy, second part still on it, it's hard to conjure the algorithm functionally.
+Second part was hardcore lol. This was interesting, want to come back at it. Possibility to refactor behaviour.
