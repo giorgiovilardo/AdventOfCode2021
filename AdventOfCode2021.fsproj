@@ -10,6 +10,9 @@
     <None Include="DayTwo.fsx" />
     <None Include="DayOne.fsx" />
     <Compile Include="Program.fs" />
+    <Content Include="Inputs\day3.txt" />
+    <None Include="DayThree.fsx" />
+    <Content Include="README.md" />
   </ItemGroup>
 
 </Project>
